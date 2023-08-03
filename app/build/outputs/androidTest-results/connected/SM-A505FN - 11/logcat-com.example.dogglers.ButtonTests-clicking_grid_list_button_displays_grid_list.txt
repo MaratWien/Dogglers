@@ -1,0 +1,81 @@
+08-03 16:18:29.930 22861 22986 I TestRunner: started: clicking_grid_list_button_displays_grid_list(com.example.dogglers.ButtonTests)
+08-03 16:18:29.936 22861 22986 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-03 16:18:29.939  4233  4233 I Layer   : id=32940[1] Destroyed Task=486#0
+08-03 16:18:29.939  4233  4233 I Layer   : id=32946[1] Destroyed ActivityRecord{e6b6634 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0
+08-03 16:18:29.946  4233  5374 I SurfaceFlinger: id=32948 createSurf (0x0),-1 flag=24004, Task=487#0
+08-03 16:18:29.948  4233  5374 I SurfaceFlinger: id=32949 createSurf (0x0),-1 flag=80004, ActivityRecord{4048285 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t487}#0
+08-03 16:18:29.953  4556  6744 D InputDispatcher: Focused application set to (0): 4048285
+08-03 16:18:29.960  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 1
+08-03 16:18:29.961  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 1
+08-03 16:18:29.963 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: PRE_ON_CREATE
+08-03 16:18:29.964 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:29.967 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 487
+08-03 16:18:29.968 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 487
+08-03 16:18:29.968 20992 20992 I BSS_SysUiManager: handleMessage = 9, 1, 0
+08-03 16:18:29.970 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 189
+08-03 16:18:29.970 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 487
+08-03 16:18:29.970  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:18:29.971 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:18:29.971 22861 22861 I DecorView: updateCaptionType >> DecorView@38b586c[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:18:29.971 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@38b586c[]
+08-03 16:18:29.977 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: CREATED
+08-03 16:18:29.977 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:29.980 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: STARTED
+08-03 16:18:29.980 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:29.984  4233  5373 I SurfaceFlinger: id=32950 createSurf (0x0),-1 flag=80004, ActivityRecord{f81b039 u0 com.example.dogglers/.MainActivity t487}#0
+08-03 16:18:29.988 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: RESUMED
+08-03 16:18:29.988 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:29.991 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: PAUSED
+08-03 16:18:29.992 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:29.996  4556  7068 D InputDispatcher: Focused application set to (0): f81b039
+08-03 16:18:30.001 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 487
+08-03 16:18:30.008 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: PRE_ON_CREATE
+08-03 16:18:30.009 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-03 16:18:30.043 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:18:30.043 22861 22861 I DecorView: updateCaptionType >> DecorView@c05512c[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:18:30.044 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@c05512c[]
+08-03 16:18:30.063 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: CREATED
+08-03 16:18:30.064 22861 22861 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.MainActivity@6a908b1
+08-03 16:18:30.066 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: STARTED
+08-03 16:18:30.066 22861 22861 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.MainActivity@6a908b1
+08-03 16:18:30.068 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: RESUMED
+08-03 16:18:30.068 22861 22861 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.MainActivity@6a908b1
+08-03 16:18:30.073  4556  6734 D InputTransport: Input channel constructed: '3c416f5', fd=422
+08-03 16:18:30.073  4556  6734 D InputTransport: Input channel constructed: '3c416f5', fd=486
+08-03 16:18:30.074  4233  5374 I SurfaceFlinger: id=32951 createSurf (0x0),-1 flag=80004, 3c416f5 com.example.dogglers/com.example.dogglers.MainActivity#0
+08-03 16:18:30.074  4556  6734 D WindowManager: isScreenshotDisabledLocked - win: Window{3c416f5 u0 com.example.dogglers/com.example.dogglers.MainActivity}
+08-03 16:18:30.074  4556  6734 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:30.075  4556  6734 D InputTransport: Input channel destroyed: '3c416f5', fd=486
+08-03 16:18:30.075 22861 22861 D InputTransport: Input channel constructed: '3c416f5', fd=84
+08-03 16:18:30.077 22861 22861 I ViewRootImpl@80b93a[MainActivity]: setView = com.android.internal.policy.DecorView@c05512c TM=true
+08-03 16:18:30.080 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: PAUSED
+08-03 16:18:30.080 22861 22861 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.MainActivity@6a908b1
+08-03 16:18:30.082 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be in: STOPPED
+08-03 16:18:30.082 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@55668be
+08-03 16:18:30.099 20992 20992 I BSS_SysUiManager: handleMessage = 9, 1, 0
+08-03 16:18:30.101  4556  6734 V WindowManager: Relayout Window{3c416f5 u0 com.example.dogglers/com.example.dogglers.MainActivity}: viewVisibility=8 req=1080x2340
+08-03 16:18:30.107  4556  6734 V WindowManager: Relayout hash=3c416f5, pid=22861: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030304
+08-03 16:18:30.107  4556  6734 V WindowManager:   fl=81810100
+08-03 16:18:30.107  4556  6734 V WindowManager:   pfl=12020000
+08-03 16:18:30.107  4556  6734 V WindowManager:   fitSides= naviIconColor=0}
+08-03 16:18:30.108 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x6204019 / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1814 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:30.109 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xb9918de / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1824 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:30.110 22861 22861 I ViewRootImpl@80b93a[MainActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=8 res=0x1 s={false 0} ch=false fn=-1
+08-03 16:18:30.118 22861 22861 I ViewRootImpl@80b93a[MainActivity]: stopped(true) old=false
+08-03 16:18:30.119 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@6a908b1 in: STOPPED
+08-03 16:18:30.120 22861 22861 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.MainActivity@6a908b1
+08-03 16:18:30.129  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 0
+08-03 16:18:30.129  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 0
+08-03 16:18:30.131 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 10ms for one to appear.
+08-03 16:18:30.131  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:18:30.142 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 50ms for one to appear.
+08-03 16:18:30.193 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 100ms for one to appear.
+08-03 16:18:30.294 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 500ms for one to appear.
+08-03 16:18:30.795 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 2000ms for one to appear.
+08-03 16:18:30.815  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:30.815  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:30.815  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:31.012 13195 13195 I Utils   : isCurrentUser current = 0, ownerId = 0
+08-03 16:18:31.012 13195 13195 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 3
+08-03 16:18:31.012 13195 13195 I TrayVisibilityController: updateTrayVisible: State=3 visible=2 mCurrentVisible=2 specificMode=0
+08-03 16:18:31.013 13195 13195 I TrayStateController: setUiState 2 :  already 2

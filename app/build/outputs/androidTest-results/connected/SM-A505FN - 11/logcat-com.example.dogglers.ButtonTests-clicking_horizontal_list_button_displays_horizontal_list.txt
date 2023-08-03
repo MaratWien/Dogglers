@@ -1,0 +1,585 @@
+08-03 16:17:56.742 22861 22986 I TestRunner: started: clicking_horizontal_list_button_displays_horizontal_list(com.example.dogglers.ButtonTests)
+08-03 16:17:56.749 22861 22986 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-03 16:17:56.752 20992 20992 I BSS_SysUiManager: handleMessage = 9, 1, 0
+08-03 16:17:56.757  4233  5374 I SurfaceFlinger: id=32940 createSurf (0x0),-1 flag=24004, Task=486#0
+08-03 16:17:56.758  4233  5374 I SurfaceFlinger: id=32941 createSurf (0x0),-1 flag=80004, ActivityRecord{95e5b5a u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t486}#0
+08-03 16:17:56.763  4556  5303 D InputDispatcher: Focused application set to (0): 95e5b5a
+08-03 16:17:56.770  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 1
+08-03 16:17:56.770  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 1
+08-03 16:17:56.771  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:17:56.774 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: PRE_ON_CREATE
+08-03 16:17:56.774 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.775 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 486
+08-03 16:17:56.776 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 486
+08-03 16:17:56.776 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 189
+08-03 16:17:56.777 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 486
+08-03 16:17:56.781 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:17:56.781  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:17:56.781  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:17:56.781 22861 22861 I DecorView: updateCaptionType >> DecorView@ef7259f[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:17:56.781  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:17:56.781 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@ef7259f[]
+08-03 16:17:56.788 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: CREATED
+08-03 16:17:56.788 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.791 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: STARTED
+08-03 16:17:56.792 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.796  4233  4252 I SurfaceFlinger: id=32942 createSurf (0x0),-1 flag=80004, ActivityRecord{c639703 u0 com.example.dogglers/.MainActivity t486}#0
+08-03 16:17:56.800 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: RESUMED
+08-03 16:17:56.801 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.802 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 486
+08-03 16:17:56.803 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: PAUSED
+08-03 16:17:56.804 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.807  4556  6734 D InputDispatcher: Focused application set to (0): c639703
+08-03 16:17:56.820 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: PRE_ON_CREATE
+08-03 16:17:56.820 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-03 16:17:56.855 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:17:56.855 22861 22861 I DecorView: updateCaptionType >> DecorView@9b095f[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:17:56.855 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@9b095f[]
+08-03 16:17:56.875 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: CREATED
+08-03 16:17:56.876 22861 22861 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.MainActivity@f2245d8
+08-03 16:17:56.879 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: STARTED
+08-03 16:17:56.879 22861 22861 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.MainActivity@f2245d8
+08-03 16:17:56.881 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: RESUMED
+08-03 16:17:56.881 22861 22861 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.MainActivity@f2245d8
+08-03 16:17:56.886  4556  6734 D InputTransport: Input channel constructed: '4fea05f', fd=422
+08-03 16:17:56.886  4556  6734 D InputTransport: Input channel constructed: '4fea05f', fd=632
+08-03 16:17:56.887  4233  5374 I SurfaceFlinger: id=32943 createSurf (0x0),-1 flag=80004, 4fea05f com.example.dogglers/com.example.dogglers.MainActivity#0
+08-03 16:17:56.887  4556  6734 D WindowManager: isScreenshotDisabledLocked - win: Window{4fea05f u0 com.example.dogglers/com.example.dogglers.MainActivity}
+08-03 16:17:56.887  4556  6734 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:17:56.887  4556  6734 D InputTransport: Input channel destroyed: '4fea05f', fd=632
+08-03 16:17:56.888 22861 22861 D InputTransport: Input channel constructed: '4fea05f', fd=84
+08-03 16:17:56.890 22861 22861 I ViewRootImpl@7b404e5[MainActivity]: setView = com.android.internal.policy.DecorView@9b095f TM=true
+08-03 16:17:56.892 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: PAUSED
+08-03 16:17:56.893 22861 22861 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.MainActivity@f2245d8
+08-03 16:17:56.894 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: STOPPED
+08-03 16:17:56.895 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:17:56.911 20992 20992 I BSS_SysUiManager: handleMessage = 9, 1, 0
+08-03 16:17:56.915  4556  6734 V WindowManager: Relayout Window{4fea05f u0 com.example.dogglers/com.example.dogglers.MainActivity}: viewVisibility=8 req=1080x2340
+08-03 16:17:56.920  4556  6734 V WindowManager: Relayout hash=4fea05f, pid=22861: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030304
+08-03 16:17:56.920  4556  6734 V WindowManager:   fl=81810100
+08-03 16:17:56.920  4556  6734 V WindowManager:   pfl=12020000
+08-03 16:17:56.920  4556  6734 V WindowManager:   fitSides= naviIconColor=0}
+08-03 16:17:56.921 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x9d909e0 / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1814 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:17:56.921 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5aba499 / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1824 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:17:56.923 22861 22861 I ViewRootImpl@7b404e5[MainActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=7 res=0x1 s={false 0} ch=false fn=-1
+08-03 16:17:56.931 22861 22861 I ViewRootImpl@7b404e5[MainActivity]: stopped(true) old=false
+08-03 16:17:56.932 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: STOPPED
+08-03 16:17:56.933 22861 22861 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.MainActivity@f2245d8
+08-03 16:17:56.942  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 0
+08-03 16:17:56.942  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 0
+08-03 16:17:56.944  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:17:56.946 22861 22986 W xample.doggler: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+08-03 16:17:56.952 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 10ms for one to appear.
+08-03 16:17:56.962 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 50ms for one to appear.
+08-03 16:17:57.013 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 100ms for one to appear.
+08-03 16:17:57.114 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 500ms for one to appear.
+08-03 16:17:57.615 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 2000ms for one to appear.
+08-03 16:17:57.782  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:17:57.782  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:17:57.782  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:17:57.825 13195 13195 I Utils   : isCurrentUser current = 0, ownerId = 0
+08-03 16:17:57.825 13195 13195 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 3
+08-03 16:17:57.825 13195 13195 I TrayVisibilityController: updateTrayVisible: State=3 visible=2 mCurrentVisible=2 specificMode=0
+08-03 16:17:57.826 13195 13195 I TrayStateController: setUiState 2 :  already 2
+08-03 16:17:57.977  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: wakeup_count+
+08-03 16:17:58.316  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: wakeup_count-
+08-03 16:17:58.316  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: mSuspendCounter+
+08-03 16:17:58.316  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: mSuspendCounter-
+08-03 16:17:58.316  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: write mem+
+08-03 16:17:58.358  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: write mem-
+08-03 16:17:58.358  4556  5303 I BatteryStatsService: In wakeup_callback: suspend aborted
+08-03 16:17:58.375  4233  4233 I SurfaceFlinger: SFWD update time=306416707399024
+08-03 16:17:58.505  4177 23063 I HYPER-HAL: [ResourceManager.cpp]removeResource(): [CPUMinFreq] RemoveResource Request ID : 10458468
+08-03 16:17:58.508  4177 23063 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 10458468
+08-03 16:17:58.782  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:17:58.782  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:17:58.783  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:17:58.831 13195 13195 I Utils   : isCurrentUser current = 0, ownerId = 0
+08-03 16:17:58.833 13195 13195 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 3
+08-03 16:17:58.833 13195 13195 I TrayVisibilityController: updateTrayVisible: State=3 visible=2 mCurrentVisible=2 specificMode=0
+08-03 16:17:58.835 13195 13195 I TrayStateController: setUiState 2 :  already 2
+08-03 16:17:59.373  4556  4805 W SemWifiTransportLayerUtils: getApplicationCategory - IOException com.example.dogglers
+08-03 16:17:59.373  4556  4805 W System.err: java.net.SocketTimeoutException: Read timed out
+08-03 16:17:59.374  4556  4805 W System.err: 	at java.net.SocketInputStream.socketRead0(Native Method)
+08-03 16:17:59.374  4556  4805 W System.err: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+08-03 16:17:59.375  4556  4805 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:176)
+08-03 16:17:59.375  4556  4805 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:144)
+08-03 16:17:59.375  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:936)
+08-03 16:17:59.377  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:900)
+08-03 16:17:59.377  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.access$100(ConscryptEngineSocket.java:722)
+08-03 16:17:59.377  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:238)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:217)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:1450)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:1399)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:1343)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:221)
+08-03 16:17:59.378  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:144)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:106)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:400)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:333)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+08-03 16:17:59.379  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:248)
+08-03 16:17:59.380  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+08-03 16:17:59.380  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+08-03 16:17:59.380  4556  4805 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerUtils.getApplicationCategory(SemWifiTransportLayerUtils.java:103)
+08-03 16:17:59.381  4556  4805 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerMonitor$TcpMonitorHandler.handleMessage(SemWifiTransportLayerMonitor.java:242)
+08-03 16:17:59.381  4556  4805 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-03 16:17:59.381  4556  4805 W System.err: 	at android.os.Looper.loop(Looper.java:246)
+08-03 16:17:59.381  4556  4805 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-03 16:17:59.382  4556  4805 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+08-03 16:17:59.382  4556  4805 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+08-03 16:17:59.383  4556  4805 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+08-03 16:17:59.431  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:17:59.431  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:17:59.435  4142  4266 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:17:59.446  4556  5303 D NetdEventListenerService: DNS Requested by : 645, 1000
+08-03 16:17:59.450  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:17:59.622 22861 22861 W RootViewPicker: No activity currently resumed - waiting: 30000ms for one to appear.
+08-03 16:17:59.783  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:17:59.783  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:17:59.783  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:00.783  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:00.784  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:00.784  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:01.785  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:01.785  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:01.785  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:02.786  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:02.786  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:02.787  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:02.800  4938  5304 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:null
+08-03 16:18:02.801  4938  4938 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+08-03 16:18:02.805  4938  4938 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:16:18, TimeContentDescription:16:18, DateText:чт, 3 августа, ShortDateText:чт, 3 авг., Demofalse)))
+08-03 16:18:02.809  4938  5304 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:null
+08-03 16:18:02.827  4938  4938 D QSClockHomeIndicatorView: Home Indicator status_bar_clock notifyTimeChanged(QSClockBellSound - TimeText:16:18, TimeContentDescription:16:18, DateText:чт, 3 августа, ShortDateText:чт, 3 авг., Demofalse) ClockVisibleByPolicy:true, ClockVisibleByUser:true, visible?false, parent:android.widget.LinearLayout{41a5dc0 V.E...... ......I. 0,0-0,83 #7f0a037c app:id/left_clock_container}
+08-03 16:18:02.828  4938  4938 D QSClockBellTower: Everyone heard the bell. run(currentTime:1691068682801,   getTime():Thu Aug 03 16:18:02 GMT+03:00 2023,   getTimeZone():libcore.util.ZoneInfo[id="Europe/Moscow",mRawOffset=10800000,mEarliestRawOffset=9017000,mUseDst=false,mDstSavings=0,transitions=78])
+08-03 16:18:02.829  4938  4938 D KeyguardUpdateMonitor: handleTimeUpdate
+08-03 16:18:02.830  4938  4938 D FaceWidgetPagesController: onTimeChanged()
+08-03 16:18:02.831  4938  4938 D FaceWidgetPagesController: refreshViews() reason = ON_TIME_TICK, force = false
+08-03 16:18:02.860  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.861  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.861  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.862  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.863  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.863  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.865  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.865  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.866  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.866  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.867  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.868  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.868  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.869  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.869  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.870  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.871  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.871 27414 22671 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 542748824]
+08-03 16:18:02.871  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.874  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.874  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.875  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.876  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.877  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.877  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.878  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.879  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.879  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 5
+08-03 16:18:02.881  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.882  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 5
+08-03 16:18:02.882  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.883  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.883  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.885  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.885  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.886  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.886  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.887  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.888  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.888  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.889  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.889  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.891  4938  4938 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:16:18, TimeContentDescription:16:18, DateText:чт, 3 августа, ShortDateText:чт, 3 авг., Demofalse)))
+08-03 16:18:02.893  4938  4938 D QSClockHomeIndicatorView: Home Indicator status_bar_clock notifyTimeChanged(QSClockBellSound - TimeText:16:18, TimeContentDescription:16:18, DateText:чт, 3 августа, ShortDateText:чт, 3 авг., Demofalse) ClockVisibleByPolicy:true, ClockVisibleByUser:true, visible?false, parent:android.widget.LinearLayout{41a5dc0 V.E...... ......I. 0,0-0,83 #7f0a037c app:id/left_clock_container}
+08-03 16:18:02.893  4938  4938 D QSClockBellTower: Everyone heard the bell. run(currentTime:1691068682890,   getTime():Thu Aug 03 16:18:02 GMT+03:00 2023,   getTimeZone():libcore.util.ZoneInfo[id="Europe/Moscow",mRawOffset=10800000,mEarliestRawOffset=9017000,mUseDst=false,mDstSavings=0,transitions=78])
+08-03 16:18:02.899 27414 22671 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+08-03 16:18:02.905  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.905  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.906  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.906  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.906  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.907  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.907  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.907  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.908  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.909  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.909  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.910  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.910  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.911  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.911  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.912  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.912  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.913  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.913  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.914  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.914  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.914  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.915  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.915  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.915  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.917  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.917  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 5
+08-03 16:18:02.918  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.918  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 5
+08-03 16:18:02.918  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.919  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.919  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.920  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.920  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.920  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.921  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.921  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.921  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.922  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.922  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.922  4938  4938 D MediaControlPanel: mActionButtonNumCollapsed = 1, mActionButtonNumExpand = 1
+08-03 16:18:02.937 27414 22671 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 542858890]
+08-03 16:18:03.376  4233  4233 I SurfaceFlinger: SFWD update time=306421708731636
+08-03 16:18:03.501  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:03.502  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:03.509  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:18:03.787  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:03.787  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:03.787  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:04.787  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:04.787  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:04.787  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:05.788  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:05.789  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:05.789  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:06.790  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:06.790  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:06.790  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:07.564  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:07.565  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:07.573  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:18:07.791  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:07.791  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:07.791  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:08.377  4233  4233 I SurfaceFlinger: SFWD update time=306426709817786
+08-03 16:18:08.792  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:08.792  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:08.793  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:09.793  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:09.793  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:09.794  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:09.835  4556  4628 I LocationManagerService: getGPSUsingApps() called
+08-03 16:18:09.835  4556  4628 I NSLocationMonitor: getGPSUsingApps() called
+08-03 16:18:09.888  5913  6778 I NSMonitorService_FLP: getGPSUsingApps, NO_FREEZE={5013}/ FREEZE={}
+08-03 16:18:10.794  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:10.794  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:10.795  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:11.398  4556  4565 I system_server: Background young concurrent copying GC freed 200630(14MB) AllocSpace objects, 406(8280KB) LOS objects, 21% free, 81MB/104MB, paused 1.120ms total 129.189ms
+08-03 16:18:11.632  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:11.633  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:11.637  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:18:11.795  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:11.795  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:11.796  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:12.796  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:12.796  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:12.797  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:13.378  4233  4233 I SurfaceFlinger: SFWD update time=306431710466398
+08-03 16:18:13.797  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:13.797  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:13.797  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:14.798  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:14.798  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:14.798  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:15.705  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:15.708  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:15.715  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:18:15.799  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:15.799  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:15.799  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:16.800  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:16.800  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:16.800  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:17.801  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:17.801  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:17.802  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:18.379  4233  4233 I SurfaceFlinger: SFWD update time=306436711025241
+08-03 16:18:18.802  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:18.803  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:18.803  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:19.779  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:19.779  4556  4805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+08-03 16:18:19.784  4142  4272 E Netd    : getNetworkForDns: getNetId from enterpriseCtrl is netid 0
+08-03 16:18:19.803  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:19.804  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:19.804  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:20.804  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:20.805  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:20.805  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:20.840 22723 22845 I Finsky:background: [148310] nlp.run(231): Stats for Executor: bgExecutor nov@97a5aa6[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+08-03 16:18:21.189 22723 22845 I Finsky:background: [148310] nlp.run(231): Stats for Executor: LightweightExecutor nov@31b5ce7[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+08-03 16:18:21.805  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:21.806  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:21.806  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:22.806  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:22.807  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:22.807  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:23.380  4233  4233 I SurfaceFlinger: SFWD update time=306441712264237
+08-03 16:18:23.808  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:23.808  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:23.808  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:23.838  4556  4805 W SemWifiTransportLayerUtils: getApplicationCategory - IOException com.example.dogglers
+08-03 16:18:23.838  4556  4805 W System.err: java.net.SocketTimeoutException: Read timed out
+08-03 16:18:23.839  4556  4805 W System.err: 	at java.net.SocketInputStream.socketRead0(Native Method)
+08-03 16:18:23.840  4556  4805 W System.err: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+08-03 16:18:23.840  4556  4805 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:176)
+08-03 16:18:23.840  4556  4805 W System.err: 	at java.net.SocketInputStream.read(SocketInputStream.java:144)
+08-03 16:18:23.840  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:936)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:900)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.access$100(ConscryptEngineSocket.java:722)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:238)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:217)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:1450)
+08-03 16:18:23.841  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:1399)
+08-03 16:18:23.842  4556  4805 W System.err: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:1343)
+08-03 16:18:23.842  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:221)
+08-03 16:18:23.842  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:144)
+08-03 16:18:23.842  4556  4805 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:106)
+08-03 16:18:23.842  4556  4805 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:400)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:333)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:248)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+08-03 16:18:23.843  4556  4805 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+08-03 16:18:23.847  4556  4805 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerUtils.getApplicationCategory(SemWifiTransportLayerUtils.java:103)
+08-03 16:18:23.847  4556  4805 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerMonitor$TcpMonitorHandler.handleMessage(SemWifiTransportLayerMonitor.java:242)
+08-03 16:18:23.848  4556  4805 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-03 16:18:23.848  4556  4805 W System.err: 	at android.os.Looper.loop(Looper.java:246)
+08-03 16:18:23.848  4556  4805 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-03 16:18:23.849  4556  4805 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+08-03 16:18:23.850  4556  4805 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+08-03 16:18:23.850  4556  4805 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+08-03 16:18:23.891  4556  4805 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+08-03 16:18:23.892  4556  4805 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+08-03 16:18:23.892  4556  4805 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+08-03 16:18:23.959  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: wakeup_count+
+08-03 16:18:24.169  4938  5117 D NetworkController.SecMobileSignalController(0/1): onSignalStrengthsChanged level=4
+08-03 16:18:24.172  4938  5117 D MobileSignalIconsSelector: getDataIconGroup(): 13
+08-03 16:18:24.645  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: wakeup_count-
+08-03 16:18:24.645  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: mSuspendCounter+
+08-03 16:18:24.645  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: mSuspendCounter-
+08-03 16:18:24.646  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: write mem+
+08-03 16:18:24.715  4091 23280 I android.system.suspend@1.0-service: !@SystemSuspend: write mem-
+08-03 16:18:24.716  4556  6734 I BatteryStatsService: In wakeup_callback: suspend aborted
+08-03 16:18:24.809  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:24.809  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:24.809  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:24.944  4556  4628 I LocationManagerService: getGPSUsingApps() called
+08-03 16:18:24.945  4556  4628 I NSLocationMonitor: getGPSUsingApps() called
+08-03 16:18:25.011  5913  6778 I NSMonitorService_FLP: getGPSUsingApps, NO_FREEZE={5013}/ FREEZE={}
+08-03 16:18:25.810  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:25.811  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:25.811  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:26.812  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:26.812  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:26.812  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:27.813  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:27.813  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:27.813  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:28.381  4233  4233 I SurfaceFlinger: SFWD update time=306446712842426
+08-03 16:18:28.814  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:28.814  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:28.814  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:29.676  4233  5374 I SurfaceFlinger: id=32944 createSurf (0x0),-1 flag=80004, ActivityRecord{db94ded u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0
+08-03 16:18:29.693  4556  6734 D InputDispatcher: Focused application set to (0): db94ded
+08-03 16:18:29.711  4556  6734 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/4556@17, type = -999
+08-03 16:18:29.712  4177  4194 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 10458468  [4556 / 17]    HINT : AMS_APP_LAUNCH    list :
+08-03 16:18:29.714  4177  4194 I HYPER-HAL: [ResourceManager.cpp]updateResource(): [CPUMinFreq] UpdateResource Request ID : 10458468    Value : 2314000
+08-03 16:18:29.718  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 1
+08-03 16:18:29.718  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 1
+08-03 16:18:29.719 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 486
+08-03 16:18:29.719  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:18:29.722 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: PRE_ON_CREATE
+08-03 16:18:29.723 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.730 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:18:29.730 22861 22861 I DecorView: updateCaptionType >> DecorView@8f4e9c2[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:18:29.730 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@8f4e9c2[]
+08-03 16:18:29.736 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: CREATED
+08-03 16:18:29.736 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.738 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: STARTED
+08-03 16:18:29.739 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.744 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: RESUMED
+08-03 16:18:29.744 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.750  4556  5303 D InputTransport: Input channel constructed: '8a0bf9c', fd=486
+08-03 16:18:29.750  4556  5303 D InputTransport: Input channel constructed: '8a0bf9c', fd=498
+08-03 16:18:29.751  4233  4252 I SurfaceFlinger: id=32945 createSurf (0x0),-1 flag=80004, 8a0bf9c com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+08-03 16:18:29.751  4556  5303 D WindowManager: isScreenshotDisabledLocked - win: Window{8a0bf9c u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+08-03 16:18:29.751  4556  5303 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:29.752  4556  5303 D InputTransport: Input channel destroyed: '8a0bf9c', fd=498
+08-03 16:18:29.752 22861 22861 D InputTransport: Input channel constructed: '8a0bf9c', fd=85
+08-03 16:18:29.755 22861 22861 I ViewRootImpl@b91e609[InstrumentationActivityInvoker$EmptyActivity]: setView = com.android.internal.policy.DecorView@8f4e9c2 TM=true
+08-03 16:18:29.757 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: PAUSED
+08-03 16:18:29.758 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.770  4556  7068 V WindowManager: Relayout Window{8a0bf9c u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: viewVisibility=8 req=1080x2340
+08-03 16:18:29.775  4556  7068 V WindowManager: Relayout hash=8a0bf9c, pid=22861: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+08-03 16:18:29.775  4556  7068 V WindowManager:   fl=1810100
+08-03 16:18:29.775  4556  7068 V WindowManager:   pfl=12020000
+08-03 16:18:29.775  4556  7068 V WindowManager:   fitSides= naviIconColor=0}
+08-03 16:18:29.776 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x52be00e / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1814 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:29.777 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xac6da2f / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1824 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:29.778 22861 22861 I ViewRootImpl@b91e609[InstrumentationActivityInvoker$EmptyActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=8 res=0x1 s={false 0} ch=false fn=-1
+08-03 16:18:29.781 22861 22861 I ViewRootImpl@b91e609[InstrumentationActivityInvoker$EmptyActivity]: stopped(true) old=false
+08-03 16:18:29.781 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: STOPPED
+08-03 16:18:29.782 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.791  4233  5374 I SurfaceFlinger: id=32946 createSurf (0x0),-1 flag=80004, ActivityRecord{e6b6634 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0
+08-03 16:18:29.796  4556  6734 D InputDispatcher: Focused application set to (0): e6b6634
+08-03 16:18:29.805 22861 22861 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.MainActivity@f2245d8 in: DESTROYED
+08-03 16:18:29.806 22861 22861 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+08-03 16:18:29.807 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 486
+08-03 16:18:29.808 22861 22861 I ViewRootImpl@7b404e5[MainActivity]: dispatchDetachedFromWindow
+08-03 16:18:29.809  4556  6734 D InputTransport: Input channel destroyed: '4fea05f', fd=422
+08-03 16:18:29.809  4556  6734 I SurfaceControl: nativeRelease nativeObject s[543485376544]
+08-03 16:18:29.809  4556  6734 I SurfaceControl: nativeRelease nativeObject e[543485376544]
+08-03 16:18:29.809  4556  6734 D WindowManager: isScreenshotDisabledLocked - win: Window{4fea05f u0 com.example.dogglers/com.example.dogglers.MainActivity}
+08-03 16:18:29.809  4556  6734 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:29.810  4233  5374 I Layer   : id=32943 removeFromCurrentState 4fea05f com.example.dogglers/com.example.dogglers.MainActivity#0 (91)
+08-03 16:18:29.811  4233  5374 I SurfaceFlinger: id=32943 Removed 4fea05f com.example.dogglers/com.example.dogglers.MainActivity#0 (91)
+08-03 16:18:29.811 22861 22861 D InputTransport: Input channel destroyed: '4fea05f', fd=84
+08-03 16:18:29.812  4556  6734 I SurfaceControl: nativeRelease nativeObject s[543483857984]
+08-03 16:18:29.812  4556  6734 I SurfaceControl: nativeRelease nativeObject e[543483857984]
+08-03 16:18:29.814  4354  4813 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,0 ,0 ,0, 5.1.0.0
+08-03 16:18:29.815  4354  4813 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 0, cso : 0, et : 0
+08-03 16:18:29.815  4354  4813 I bauth_FPBAuthService: FPBAuthService, 11607
+08-03 16:18:29.820 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: PRE_ON_CREATE
+08-03 16:18:29.821 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.824  4233  4233 I Layer   : id=32943[1] Destroyed 4fea05f com.example.dogglers/com.example.dogglers.MainActivity#0
+08-03 16:18:29.825  4233  5374 I Layer   : id=32942 removeFromCurrentState ActivityRecord{c639703 u0 com.example.dogglers/.MainActivity t486}#0 (90)
+08-03 16:18:29.825  4233  5374 I SurfaceFlinger: id=32942 Removed ActivityRecord{c639703 u0 com.example.dogglers/.MainActivity t486}#0 (90)
+08-03 16:18:29.830 22861 22861 I DecorView: [INFO] isPopOver=false, config=true
+08-03 16:18:29.830 22861 22861 I DecorView: updateCaptionType >> DecorView@f134d41[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+08-03 16:18:29.830 22861 22861 D DecorView: setCaptionType = 0, this = DecorView@f134d41[]
+08-03 16:18:29.835 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: CREATED
+08-03 16:18:29.836 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.838 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: STARTED
+08-03 16:18:29.838 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.840 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: RESUMED
+08-03 16:18:29.840 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.840  4233  4233 I Layer   : id=32942[1] Destroyed ActivityRecord{c639703 u0 com.example.dogglers/.MainActivity t486}#0
+08-03 16:18:29.845  4556  5303 D InputTransport: Input channel constructed: 'dad3dff', fd=498
+08-03 16:18:29.845  4556  5303 D InputTransport: Input channel constructed: 'dad3dff', fd=606
+08-03 16:18:29.845  4233  4252 I SurfaceFlinger: id=32947 createSurf (0x0),-1 flag=80004, dad3dff com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+08-03 16:18:29.846  4556  5303 D WindowManager: isScreenshotDisabledLocked - win: Window{dad3dff u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+08-03 16:18:29.846  4556  5303 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:29.846  4556  5303 D InputTransport: Input channel destroyed: 'dad3dff', fd=606
+08-03 16:18:29.847 22861 22861 D InputTransport: Input channel constructed: 'dad3dff', fd=84
+08-03 16:18:29.848 22861 22861 I ViewRootImpl@52282d4[InstrumentationActivityInvoker$EmptyActivity]: setView = com.android.internal.policy.DecorView@f134d41 TM=true
+08-03 16:18:29.850 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: PAUSED
+08-03 16:18:29.851 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.853 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9 in: DESTROYED
+08-03 16:18:29.854 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@7aa07f9
+08-03 16:18:29.855  4556  5303 I SurfaceControl: nativeRelease nativeObject s[543483858368]
+08-03 16:18:29.855  4556  5303 I SurfaceControl: nativeRelease nativeObject e[543483858368]
+08-03 16:18:29.858  4233  4252 I Layer   : id=32941 removeFromCurrentState ActivityRecord{95e5b5a u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t486}#0 (90)
+08-03 16:18:29.858  4233  4252 I SurfaceFlinger: id=32941 Removed ActivityRecord{95e5b5a u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t486}#0 (90)
+08-03 16:18:29.865  4556  6734 V WindowManager: Relayout Window{dad3dff u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}: viewVisibility=8 req=1080x2340
+08-03 16:18:29.870  4556  6734 V WindowManager: Relayout hash=dad3dff, pid=22861: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030001
+08-03 16:18:29.870  4556  6734 V WindowManager:   fl=1810100
+08-03 16:18:29.870  4556  6734 V WindowManager:   pfl=12020000
+08-03 16:18:29.870  4556  6734 V WindowManager:   fitSides= naviIconColor=0}
+08-03 16:18:29.871 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x7867c7d / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1814 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:29.872 22861 22861 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x3df4772 / android.view.SurfaceControl.readFromParcel:1121 android.view.IWindowSession$Stub$Proxy.relayout:1824 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+08-03 16:18:29.873 22861 22861 I ViewRootImpl@52282d4[InstrumentationActivityInvoker$EmptyActivity]: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) req=(1080,2340)8 dur=8 res=0x1 s={false 0} ch=false fn=-1
+08-03 16:18:29.873  4233  4233 I Layer   : id=32941[1] Destroyed ActivityRecord{95e5b5a u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t486}#0
+08-03 16:18:29.876 22861 22861 I ViewRootImpl@52282d4[InstrumentationActivityInvoker$EmptyActivity]: stopped(true) old=false
+08-03 16:18:29.876 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: STOPPED
+08-03 16:18:29.877 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.896  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22861 ;value= 0
+08-03 16:18:29.897  4556  4605 D SehCodecSolutionService: Update top [com.example.dogglers]
+08-03 16:18:29.897  4556  4630 D FastTrack: setFastTrackState: pid = 22861 ;tid= 22994 ;value= 0
+08-03 16:18:29.901  4556  7068 D InputDispatcher: Focused application set to (0): df42e3b
+08-03 16:18:29.906 20992 20992 I BSS_SysUiManager: handleMessage = 9, 3, 189
+08-03 16:18:29.907 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 486
+08-03 16:18:29.908 20992 20992 I BSS_SysUiManager: handleMessage = 9, 4, 189
+08-03 16:18:29.910 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4 in: DESTROYED
+08-03 16:18:29.910 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@5b1a8a4
+08-03 16:18:29.911 22861 22861 I ViewRootImpl@b91e609[InstrumentationActivityInvoker$EmptyActivity]: dispatchDetachedFromWindow
+08-03 16:18:29.912  4556  7068 D InputTransport: Input channel destroyed: '8a0bf9c', fd=486
+08-03 16:18:29.912  4556  7068 I SurfaceControl: nativeRelease nativeObject s[543483858656]
+08-03 16:18:29.912  4556  7068 I SurfaceControl: nativeRelease nativeObject e[543483858656]
+08-03 16:18:29.912  4556  7068 D WindowManager: isScreenshotDisabledLocked - win: Window{8a0bf9c u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+08-03 16:18:29.912  4556  7068 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:29.914  4233  4252 I Layer   : id=32945 removeFromCurrentState 8a0bf9c com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0 (89)
+08-03 16:18:29.914  4233  4252 I SurfaceFlinger: id=32945 Removed 8a0bf9c com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0 (89)
+08-03 16:18:29.915 22861 22861 D InputTransport: Input channel destroyed: '8a0bf9c', fd=85
+08-03 16:18:29.916  4556  7068 I SurfaceControl: nativeRelease nativeObject s[543485373568]
+08-03 16:18:29.916  4556  7068 I SurfaceControl: nativeRelease nativeObject e[543485373568]
+08-03 16:18:29.916 22861 22861 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b in: DESTROYED
+08-03 16:18:29.917 22861 22861 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@2f0ea4b
+08-03 16:18:29.918 22861 22861 I ViewRootImpl@52282d4[InstrumentationActivityInvoker$EmptyActivity]: dispatchDetachedFromWindow
+08-03 16:18:29.918  4556  7068 D InputTransport: Input channel destroyed: 'dad3dff', fd=498
+08-03 16:18:29.918  4556  7068 I SurfaceControl: nativeRelease nativeObject s[543735106912]
+08-03 16:18:29.918  4556  7068 I SurfaceControl: nativeRelease nativeObject e[543735106912]
+08-03 16:18:29.918  4556  7068 D WindowManager: isScreenshotDisabledLocked - win: Window{dad3dff u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}
+08-03 16:18:29.918  4556  7068 D WindowManager: isScreenshotDisabledLocked: userId = 0, disabled =false
+08-03 16:18:29.920  4233  4252 I Layer   : id=32944 removeFromCurrentState ActivityRecord{db94ded u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0 (89)
+08-03 16:18:29.920  4233  4252 I Layer   : id=32947 removeFromCurrentState dad3dff com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0 (89)
+08-03 16:18:29.921  4233  4252 I SurfaceFlinger: id=32944 Removed ActivityRecord{db94ded u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0 (89)
+08-03 16:18:29.921  4233  4252 I SurfaceFlinger: id=32947 Removed dad3dff com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0 (89)
+08-03 16:18:29.921 22861 22861 D InputTransport: Input channel destroyed: 'dad3dff', fd=84
+08-03 16:18:29.922  4556  6734 I SurfaceControl: nativeRelease nativeObject s[543483856832]
+08-03 16:18:29.922  4556  6734 I SurfaceControl: nativeRelease nativeObject e[543483856832]
+08-03 16:18:29.922 22861 22986 E TestRunner: failed: clicking_horizontal_list_button_displays_horizontal_list(com.example.dogglers.ButtonTests)
+08-03 16:18:29.922 22861 22986 E TestRunner: ----- begin exception -----
+08-03 16:18:29.922  4233  4233 I Layer   : id=32947[1] Destroyed dad3dff com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+08-03 16:18:29.922  4556  6734 I SurfaceControl: nativeRelease nativeObject s[543483848000]
+08-03 16:18:29.922  4556  6734 I SurfaceControl: nativeRelease nativeObject e[543483848000]
+08-03 16:18:29.922  4233  4233 I Layer   : id=32944[1] Destroyed ActivityRecord{db94ded u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t486}#0
+08-03 16:18:29.922  4233  4233 I Layer   : id=32945[1] Destroyed 8a0bf9c com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+08-03 16:18:29.923 22861 22986 E TestRunner: androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at java.lang.Thread.getStackTrace(Thread.java:1736)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:60)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)
+08-03 16:18:29.923 22861 22986 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+08-03 16:18:29.923 22861 22986 E TestRunner: ----- end exception -----
+08-03 16:18:29.925 22861 22986 I TestRunner: finished: clicking_horizontal_list_button_displays_horizontal_list(com.example.dogglers.ButtonTests)
